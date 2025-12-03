@@ -1,8 +1,7 @@
-{% set name = "tere" %}
 {% set version = "1.6.0" %}
 
 package:
-  name: {{ name|lower }}
+  name: tere
   version: {{ version }}
 
 source:
@@ -10,7 +9,7 @@ source:
   sha256: 7db94216b94abd42f48105c90e0e777593aaf867472615eb94dc2f77bb6a3cfb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
