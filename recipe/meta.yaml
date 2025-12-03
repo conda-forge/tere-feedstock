@@ -1,8 +1,7 @@
-{% set name = "tere" %}
 {% set version = "1.6.0" %}
 
 package:
-  name: {{ name|lower }}
+  name: tere
   version: {{ version }}
 
 source:
